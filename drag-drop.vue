@@ -13,13 +13,13 @@
 
     Vue.directive('draggable', {
         bind: function(el, binding, vnode) {
-            el.arg = binding.value.dragged;
+            el.arg = binding.value.channel;
             el.data = binding.value;
             el.dragstart = (function(_this) {
                 return function(e) {
                     $( _this.data.selectorDropZone ).find(".filter_content_wrapper .dragArea").removeClass("hide");
                     $( _this.data.selectorDropZone ).find(".filter_content_wrapper .dragArea").addClass("drop-prepare");
-                    e.target.classList.add(_this.data.dragged);
+                    e.target.classList.add(_this.data.channel);
                     e.dataTransfer.effectAllowed = 'all';
                     e.dataTransfer.dropEffect = 'copy';
                     e.dataTransfer.setData('data', JSON.stringify(_this.data));
@@ -29,7 +29,7 @@
             })(el);
             el.dragend = (function(_this) {
                 return function(e) {
-                    e.target.classList.remove(_this.data.dragged);
+                    e.target.classList.remove(_this.data.channel);
                     return false;
                 };
             })(el);
@@ -49,7 +49,7 @@
         bind: function(el, binding, vnode) {
           el.destiny = binding.value.destiny;
           el.execute = binding.value.execute;
-          el.arg = binding.value.dragged;
+          el.arg = binding.value.channel;
 
           el.dragenter = (function(_this) {
             return function(e) {
