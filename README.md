@@ -6,27 +6,29 @@ Drag and drop.
 
 ### Drag
 
-index: Key element in array.
-
-data: information you need sent to droparea.
-
-selectorDropZone: Area drop element.
+When you drop the element, droparea will execute the callback function sending index and data.
 
 ```html
-<div v-draggable="{dragged:'myDrag', index:keyEntry, data:data, selectorDropZone:'.dragArea'}"  >
+<div v-draggable="{channel:'myDrag', index: idx, data: myArrayOrigin, selectorDropZone:'.dragArea'}"  >
   Foo bar
 </div>
 ```
 
 ### Drop
 
-destiny: Array the elements droppeds,.
-
-execute: Function add elements in array.
-
 ```html
-<div class="dragArea"  v-dropzone="{dragged:'myDrag', destiny:myArray, execute:myFunction}" >
+<div class="dragArea"  v-dropzone="{channel:'myDrag', destiny: myArrayDestiny, execute: myFunction}" >
 </div>
+```
+
+### Callback execute
+
+```js
+methods:{
+  executeItem(myArrayOrigin, myArrayDestiny, idx, channel){
+    
+  }
+}
 ```
 
 
