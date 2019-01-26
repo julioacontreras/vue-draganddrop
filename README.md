@@ -18,7 +18,7 @@ When the element is dropped, will execute the callback function sending index an
 ### Drop
 
 ```html
-<div class="dragArea"  v-dropzone="{channel:'myDrag', destiny: myArrayDestiny, execute: myFunction}" >
+<div class="dragArea" v-dropzone="{channel:'myDrag', destiny: myArrayDestiny, execute: myFunction}" >
 </div>
 ```
 
