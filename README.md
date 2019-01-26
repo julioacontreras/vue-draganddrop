@@ -13,7 +13,7 @@ data: information you need sent to droparea.
 selectorDropZone: Area drop element.
 
 ```html
-<div v-draggable="{dragged:'myDrag', index:keyEntry, data:data, selectorDropZone:'".dragArea"'}"  >
+<div v-draggable="{dragged:'myDrag', index:keyEntry, data:data, selectorDropZone:'.dragArea'}"  >
   Foo bar
 </div>
 ```
