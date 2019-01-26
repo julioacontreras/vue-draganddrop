@@ -4,9 +4,9 @@ Drag and drop.
 
 ## Usage
 
-### Drag
+When the element is dropped, will execute the callback function sending index and data.
 
-When you drop the element, droparea will execute the callback function sending index and data.
+### Drag
 
 ```html
 <div v-draggable="{channel:'myDrag', index: idx, data: myArrayOrigin, selectorDropZone:'.dragArea'}"  >
