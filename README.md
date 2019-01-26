@@ -1,6 +1,7 @@
 # Drag and Drop for Vue
 
-Drag and drop.
+* Drag and drop elements between components.
+* Multiple Drag and drop per channel.
 
 ## Usage
 
