@@ -1,0 +1,27 @@
+{
+  "name": "@julioacontreras/vue-draganddrop",
+  "version": "1.0.1",
+  "description": "Drag and Drop for Vue",
+  "main": "drag-drop.vue",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julioacontreras/vue-draganddrop.git"
+  },
+  "keywords": [
+    "vue",
+    "drag",
+    "and",
+    "drop"
+  ],
+  "author": "Julio Contreras",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julioacontreras/vue-draganddrop/issues"
+  },
+  "homepage": "https://github.com/julioacontreras/vue-draganddrop#readme"
+}
