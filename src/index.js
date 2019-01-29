@@ -1,3 +1,6 @@
+
+import Vue from 'vue';
+
 import DragAndDrop from './DragAndDrop.vue';
 
 // Install the components
