@@ -3,7 +3,7 @@
 * Drag and drop elements between components.
 * Multiple Drag and drop per channel.
 
-### install
+### Install
 
 ```
 npm install @julioacontreras/vue-draganddrop --save
