@@ -3,9 +3,17 @@
 * Drag and drop elements between components.
 * Multiple Drag and drop per channel.
 
+### Install
+
+```
+npm install @julioacontreras/vue-draganddrop --save
+```
+
+
 ## Usage
 
 When the element is dropped, will execute the callback function sending index and data.
+
 
 ### Drag
 
@@ -14,6 +22,7 @@ When the element is dropped, will execute the callback function sending index an
   Foo bar
 </div>
 ```
+
 
 ### Drop
 
