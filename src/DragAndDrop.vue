@@ -1,4 +1,5 @@
 <script>
+	import Vue from 'vue';
 
     var _;
 
