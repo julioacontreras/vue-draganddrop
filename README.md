@@ -6,7 +6,7 @@
 ### install
 
 ```
-npm install drag-drop
+npm install @julioacontreras/vue-draganddrop --save
 ```
 
 
